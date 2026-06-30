@@ -1,0 +1,19 @@
+name = ''
+
+[server]
+
+[llm]
+api_key = ''
+model = ''
+url = ''
+
+[prompt]
+use_base = true
+system_prompt = ''
+user_prompt = ''
+
+[extra_body.translation_options]
+key = "value"
+
+[extra_headers]
+foo = "bar"

@@ -1,0 +1,23 @@
+[project]
+name = "translate"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "openai>=2.21.0",
+    "pydantic>=2.12.5",
+    "uvicorn>=0.41.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.2",
+]
+
+[tool.pyrefly]
+preset = "strict"
+project-includes = [
+    "**/*.py*",
+    "**/*.ipynb",
+]
